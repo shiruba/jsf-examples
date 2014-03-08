@@ -9,6 +9,7 @@
     <name>Various JSF 2 examples</name>
 
     <modules>
+        <module>icefaces3</module>
         <module>primefaces4</module>
     </modules>
 

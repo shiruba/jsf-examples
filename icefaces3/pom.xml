@@ -6,20 +6,20 @@
         <artifactId>jsf</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>primefaces4</artifactId>
+    <artifactId>icefaces3</artifactId>
     <packaging>war</packaging>
 
-    <name>JSF example with PrimeFaces ${primefaces.version}</name>
+    <name>JSF example with IceFaces ${icefaces.version}</name>
 
     <dependencies>
         <dependency>
-            <groupId>org.primefaces</groupId>
-            <artifactId>primefaces</artifactId>
-            <version>4.0</version>
+            <groupId>org.icefaces</groupId>
+            <artifactId>icefaces-ace</artifactId>
+            <version>${icefaces.version}</version>
         </dependency>
     </dependencies>
 
     <properties>
-        <primefaces.version>4.0.0</primefaces.version>
+        <icefaces.version>3.3.0</icefaces.version>
     </properties>
 </project>
